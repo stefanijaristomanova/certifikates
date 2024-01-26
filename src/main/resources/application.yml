@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: certificates-service
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    time-zone: UTC
+
+  datasource:
+    url:
+    username:
+    password:
+
+authorization:
+  enabled: false
+server:
+  port: 8080
+  servlet:
+    context-path: /api
